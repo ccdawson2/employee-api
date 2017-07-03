@@ -1,0 +1,31 @@
+{
+  "name": "swagger1",
+  "version": "0.0.1",
+  "private": true,
+  "description": "New Swagger API Project",
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "google-auth-library": "^0.10.0",
+    "jsonwebtoken": "^7.4.1",
+    "mongoose": "^4.10.4",
+    "morgan": "^1.8.2",
+    "swagger-express-mw": "^0.1.0"
+  },
+  "devDependencies": {
+    "should": "^7.1.0",
+    "supertest": "^1.0.0"
+  },
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "swagger project test",
+    "deploy": "gcloud app deploy --project squares-api-168505"
+  },
+  "engines": {
+    "node": ">=0.10.3 <6.10.0"
+  }
+}
